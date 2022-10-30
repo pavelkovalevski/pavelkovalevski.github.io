@@ -1,0 +1,35 @@
+.btn {
+    width: 183px;
+    height: 43px;
+    background: #3E9CDC;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.25 all;
+    //text
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &:hover {
+        box-shadow: 0px 0px 15px 2px #3E9CDC;
+    }
+    &_white {
+        background: #FFFFFF;
+        border: 1px solid #6F6D7B;
+        border-radius: 4px;
+        //text
+        color: #2A2B30;
+    }
+    &_form {
+        width: 370px;
+        height: 48px;
+        &:hover {
+            box-shadow: 0px 0px 15px 2px #6F6D7B;
+        }
+    }
+}

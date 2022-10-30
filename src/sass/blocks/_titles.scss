@@ -1,0 +1,30 @@
+.title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    span {
+        color: $main-color
+    }
+    &_main {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: left;
+        color: #000000;
+    }
+}
+
+.subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #BBBBBB;
+}
